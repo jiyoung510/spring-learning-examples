@@ -74,3 +74,5 @@ create table tbl_attach (
 alter table tbl_attach add constraint pk_attach primary key(uuid);
 
 alter table tbl_attach add constraint fk_board_attach foreign key (bno) references tbl_board(bno);
+
+select * from tbl_attach;
